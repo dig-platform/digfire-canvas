@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {DigFire} from '@dig-platform/dig-fire';
 
 @Component({
   selector: 'app-canvas',
@@ -8,7 +7,7 @@ import {DigFire} from '@dig-platform/dig-fire';
 })
 export class CanvasPage implements OnInit {
 
-  constructor(readonly digFire: DigFire) { }
+  constructor() { }
 
   ngOnInit() {
   }

@@ -6,7 +6,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import {DigFireModule} from '@dig-platform/dig-fire';
+// import {DigFireModule} from '@dig-platform/dig-fire';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +14,7 @@ import {DigFireModule} from '@dig-platform/dig-fire';
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    DigFireModule.forRoot({initialState: {title: 'DigFire Canvas'}}),
+    // DigFireModule.forRoot({initialState: {title: 'DigFire Canvas'}}),
     AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
