@@ -1,0 +1,19 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>{{title}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <ion-card *ngIf="heroModel.hero$ | async as hero" class="hero">
+    <ion-card-content>
+      <ion-icon name="code-working" size="large"></ion-icon>
+      <h1>{{hero.title}}</h1>
+      <p>{{hero.subtitle}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+
+</ion-footer>
