@@ -1,7 +1,7 @@
 import {Observable, of} from 'rxjs';
 import {Injectable} from '@angular/core';
 
-// hero unit model
+//  hero unit model
 
 export interface Hero {
   title: string;

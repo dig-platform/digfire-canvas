@@ -4,7 +4,7 @@ import { FormsModule } from "@angular/forms";
 import { IonicModule } from "@ionic/angular";
 
 import { AppComponent } from "./app.component";
-import { Controller } from "./canvas/controller";
+import { Controller } from "./workspace/controller";
 import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
